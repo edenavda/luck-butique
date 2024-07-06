@@ -1,0 +1,157 @@
+@import url('https://fonts.cdnfonts.com/css/georgia');
+
+body {
+    /*background-image: url(../images/bg.jpg);*/
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-origin: border-box;
+    position: static;
+    font-family: "Georgia Negreta", "Georgia", sans-serif;
+}
+
+.heading {
+    /*background: #ffffffb8;
+    padding: 25px;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+    border-width: 0px;*/
+
+    font-family: "Georgia Negreta", "Georgia", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    color: rgba(224, 160, 162, 0.9568627450980393);
+}
+
+.btn-outline-secondary {
+    border-color: white;
+    color: white;
+}
+
+label,
+p,
+h5 {
+    /*color: white;*/
+    font-family: "Georgia Negreta", "Georgia", sans-serif;
+}
+
+.btn {
+    font-family: "Georgia Negreta", "Georgia", sans-serif;
+}
+
+.list-group-item {
+    background: none;
+}
+
+.list-group-treatment {
+    display: flex;
+    align-items: flex-start;
+}
+
+.list-group-treatment img {
+    margin-right: 15px;
+}
+
+.list-group a {
+    text-decoration: none;
+}
+
+.list-group p,
+.list-group h5 {
+    color: #8c8c8c;
+}
+
+.list-group h5 {
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.next-booking {
+    text-align: right;
+    position: relative;
+    padding: 12px;
+    border-radius: 20px;
+    background-color: rgba(242, 242, 242, 0.41);
+    box-sizing: border-box;
+}
+
+.next-booking p, .rectangle p {
+    margin-bottom: 0;
+    color: rgba(51, 51, 51, 0.69);
+}
+
+.next-booking h4 {
+    margin-bottom: 0;
+    color: white;
+    font-weight: bold;
+}
+
+.next-booking span {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+
+.next-booking i {
+    color: white;
+}
+
+.rectangle {
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #fdcbcbb3;
+    position: relative;
+
+}
+
+.next{
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.date-range{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rectangle p{
+    font-size: 15px;
+}
+
+.rectangle h4{
+    font-weight: bold;
+}
+
+.schedule{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    background: white;
+    color: #b3b2b2;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.btn-primary{
+    background: #fdcbcbb3;
+    border-color: #fdcbcbb3;
+    color: black;
+}
+
+.btn-primary:hover{
+    background: pink;
+    border-color: pink;
+    color: black;
+}
+
+.navbar{
+    background: pink !important; 
+}
